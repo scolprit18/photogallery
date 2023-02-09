@@ -1,0 +1,205 @@
+body {
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+h1 {
+    background-color: #ffffff;
+    color: #007d7b;
+    font-size: 3em;
+    text-align: justify;
+}
+nav a {
+    display: inline-flex;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+a:hover {
+    color: #007d7b;
+}
+#centered-nav {
+    min-width: 400px;
+    height: auto;
+}
+#back {
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    padding: 0;
+}
+main {
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0 auto;
+}
+h2 {
+    font-size: 2em;
+    text-transform: uppercase;
+}
+p {
+    font-size: 1.25em;
+    text-align: left;
+    margin: 10px;
+}
+figcation, label, input, small p {
+    font-size: 1em;
+    text-transform: uppercase;
+}
+figure {
+    position: relative;
+    margin: 4px;
+}
+figcaption {
+    position: absolute;
+}
+#chile figcaption {
+    bottom: 5%;
+    left: 35%;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+#guatemala figcaption {
+    top: 5%;
+    left: 30%;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+#hawaii figcaption {
+    bottom: 5%;
+    left: 33%;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+#iran figcaption {
+    top: 3%;
+    left: 35%;
+    text-transform: uppercase;
+    color: #000000;
+}
+#ireland figcaption {
+    top: 3%;
+    left: 33%;
+    text-transform: uppercase;
+    color: #000000;
+}
+#italy figcaption {
+    bottom: 2%;
+    left: 35%;
+    text-transform: uppercase;
+    color: #000000;
+}
+#moab figcaption {
+    bottom: 5%;
+    left: 25%;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+#rocky figcaption {
+    top: 5%;
+    left: 17%;
+    text-transform: uppercase;
+    color: #000000;
+}
+#switzerland figcaption {
+    top: 5%;
+    left: 25%;
+    text-transform: uppercase;
+    color: #000000;
+}
+#uk figcaption {
+    top: 5%;
+    left: 40%;
+    text-transform: uppercase;
+    color: #000000;
+}
+#usa figcaption {
+    top: 5%;
+    left: 38%;
+    text-transform: uppercase;
+    color: #000000;
+}
+#wyoming figcaption {
+    top: 5%;
+    left: 30%;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+aside h2, aside p, aside label {
+    color: #ffffff;
+}
+aside {
+    text-align: center;
+    width: 100%;
+}
+input {
+    color: #007d7b;
+    padding: 5px;
+    width: 100%;
+    height: auto;
+}
+aside p {
+    text-align: center;
+}
+form div {
+    display: block;
+    margin: 0 auto;
+    padding: 1%;
+    width: 80%;
+}
+label {
+    display: block;
+    text-align: left;
+    padding-left: 10px;
+}
+form p {
+    visibility: hidden;
+}
+#submit {
+    background-color: #007d7b;
+    color: #ffffff;
+    border: none;
+    padding: 5px;
+    border-radius: 15px;
+    margin: 10px;
+    width: 25%;
+}
+#submit:hover {
+    color: #007d7b;
+    background-color: #ffffff;
+}
+small {
+    color: #ffffff;
+    text-align: center;
+}
+footer {
+    margin: 0 auto;
+}
+@media (min-width: 485px ) {
+    body {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 75%;
+    }
+}
+@media (min-width: 880px) {
+    #photos {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (min-width: 1300px) {
+    #photos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
